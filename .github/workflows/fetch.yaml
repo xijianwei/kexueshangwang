@@ -1,32 +1,44 @@
+# 定义一个 GitHub Actions 的工作流
 name: Fetch Subscriptions Source
 
 # 触发条件
 on:
+  # 1.手动执行：在 GitHub 仓库的 Actions 页面可以手动点击运行
   workflow_dispatch:
 
+  # 2.定时任务执行
   schedule:
     - cron: '0 */4 * * *'
-  watch:
-    types: started
+  # 该规则表示每天从 0 点开始，每隔 4 个小时执行一次任务
   # - cron: '0 3,12 * * *'
-  # -'0 */4 * * *'
-  # -该规则表示每天从 0 点开始，每隔 4 个小时执行一次任务
+  # 使用 UTC 时间，表示每天 UTC 时间 3:00 和 12:00 执行
   # 表达式生成  https://crontab.guru/
 
-  
-jobs:
-  fetch:
-    runs-on: ubuntu-latest
-    steps:
+  # 3.监听仓库 star 事件：当有人给这个仓库点 star 时自动执行
+  watch:
+    types: started
 
+# 任务流程
+jobs:
+  # 任务流名称
+  fetch:
+    # 环境配置，运行在最新的 ubuntu 系统上
+    runs-on: ubuntu-latest
+    
+    # 执行步骤
+    steps:
+    
+    # 1.使用 checkout 动作将仓库代码下载到运行器
     - name: 迁出代码
       uses: actions/checkout@v2
 
+    # 2.使用 setup-python 动作安装 Python，版本为 3.x（最新版本）
     - name: 安装Python
       uses: actions/setup-python@v2
       with:
         python-version: '3.x'
-      
+
+    # 3.使用 cache 动作缓存 pip 的安装包，以提高后续运行效率。缓存键根据 requirements.txt 的哈希值生成，如果文件未改变，则使用缓存。
     - name: 加载缓存
       uses: actions/cache@v4
       with:
@@ -34,24 +46,30 @@ jobs:
         key: ${{ runner.os }}-pip-${{ hashFiles('**/run_in_Actions/requirements.txt') }}
         restore-keys: |
           ${{ runner.os }}-pip-
-      
+
+    # 4.将系统时区设置为亚洲/上海（北京时间）
     - name: 设置时区
       run: sudo timedatectl set-timezone 'Asia/Shanghai'
 
+    # 5.使用 pip 安装 requirements.txt 中指定的 Python 包
     - name: 安装依赖
       run: |
         pip install -r ./requirements.txt
+
+    # 6.运行 main.py 脚本
     - name: 执行任务
       run: |
         python ./main.py
+
+    # 7.配置 git 用户信息，然后将 ./sub 目录的更改提交，提交信息包含当前时间
     - name: Commit
       run: |
         git config --global user.name "GitHub Actions"
         git config --global user.email "actions@github.com"
-
         git add ./sub   # 这是pre_check.py定义的输出路径
         git commit -m "🍀 爬取免费订阅源 $(date '+%Y-%m-%d %H:%M:%S')"
-        
+
+    # 8.使用 ad-m/github-push-action 动作将提交推送到 main 分支
     - name: 推送更改
       uses:  ad-m/github-push-action@master
       with:
