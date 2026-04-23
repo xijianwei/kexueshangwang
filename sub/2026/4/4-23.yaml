@@ -1,28 +1,26 @@
 clash订阅:
-- https://chromego-sub.netlify.app/sub/merged_proxies_new.yaml
-- https://sni.111000.dynv6.net/sub?clash
-- https://proxypool.dmit.dpdns.org/clash/proxies?c=CN,HK,TW,SG,JP,KR,VN&amp;speed=1&amp;type=ss
-- https://pai.yt/clash
-- https://update.glados-config.com/mihomo/543454/7b9d17e/80064/glados.yaml
-- https://proxypool.dmit.dpdns.org/clash/proxies?nstream=netflix,disney&amp;nc=CA&amp;type=ss,vmess,vless
-- https://sni.111000.dynv6.net/sub
-- https://proxypool.dmit.dpdns.org/clash/proxies
 - https://raw.githubusercontent.com/go4sharing/sub/main/sub.yaml
+- https://update.glados-config.com/mihomo/543454/7b9d17e/80064/glados.yaml
+- https://sni.111000.dynv6.net/sub?clash
+- https://sni.111000.dynv6.net/sub
+- https://proxypool.dmit.dpdns.org/clash/proxies?nstream=netflix,disney&amp;nc=CA&amp;type=ss,vmess,vless
+- https://pai.yt/clash
+- https://proxypool.dmit.dpdns.org/clash/proxies
+- https://chromego-sub.netlify.app/sub/merged_proxies_new.yaml
 - https://pai.yt/clash?preset=other
+- https://proxypool.dmit.dpdns.org/clash/proxies?c=CN,HK,TW,SG,JP,KR,VN&amp;speed=1&amp;type=ss
 v2订阅:
 - https://pai.yt/base64
 - https://pai.yt/base64?preset=other
-- https://iuiu.lovebabyforever.workers.dev/
 - https://sub.scpnb.top/base64
+- https://iuiu.lovebabyforever.workers.dev/
 开心玩耍:
-- 可用流量:67.72 GB                    https://mojie.app/api/v1/client/subscribe?token=8f3d49f0e449452fa3c68b705ea125b8
-- 可用流量:47.18 GB                    https://knotic.net/sub/bbf25343a71ef115/clash
-- 可用流量:58.26 GB                    https://xmm.maimaiyun.shop/api/v1/xmm?token=/4204a0c8a97f4f8c76cca463ce20b913
-- 可用流量:22372.95 GB                    https://aoe.o.eoa.ccwu.cc/o
-- 可用流量:267.93 GB                    https://47.112.97.173:5000/api/v1/client/subscribe?token=6eb40fad2c38da9644f2d74eb2fae757
+- 可用流量:58.25 GB                    https://xmm.maimaiyun.shop/api/v1/xmm?token=/4204a0c8a97f4f8c76cca463ce20b913
+- 可用流量:18384.75 GB                    https://aoe.o.eoa.ccwu.cc/o
+- 可用流量:47.13 GB                    https://knotic.net/sub/bbf25343a71ef115/clash
 机场订阅:
-- https://47.112.97.173:5000/api/v1/client/subscribe?token=6eb40fad2c38da9644f2d74eb2fae757
-- https://xmm.maimaiyun.shop/api/v1/xmm?token=/4204a0c8a97f4f8c76cca463ce20b913
-- https://knotic.net/sub/bbf25343a71ef115/clash
-- https://mojie.app/api/v1/client/subscribe?token=8f3d49f0e449452fa3c68b705ea125b8
 - https://aoe.o.eoa.ccwu.cc/o
+- https://mojie.app/api/v1/client/subscribe?token=8f3d49f0e449452fa3c68b705ea125b8
+- https://47.112.97.173:5000/api/v1/client/subscribe?token=6eb40fad2c38da9644f2d74eb2fae757
+- https://knotic.net/sub/bbf25343a71ef115/clash
+- https://xmm.maimaiyun.shop/api/v1/xmm?token=/4204a0c8a97f4f8c76cca463ce20b913
