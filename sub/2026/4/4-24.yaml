@@ -1,38 +1,35 @@
 clash订阅:
-- https://pai.yt/clash?preset=other
-- https://proxypool.dmit.dpdns.org/clash/proxies?nstream=netflix,disney&amp;nc=CA&amp;type=ss,vmess,vless
-- https://sni.111000.dynv6.net/sub
-- https://proxypool.dmit.dpdns.org/clash/proxies
+- https://raw.githubusercontent.com/go4sharing/sub/main/sub.yaml
+- https://chromego-sub.netlify.app/sub/merged_proxies_new.yaml
 - https://proxypool.dmit.dpdns.org/clash/proxies?c=CN,HK,TW,SG,JP,KR,VN&amp;speed=1&amp;type=ss
+- https://pai.yt/clash?preset=other
+- https://sni.111000.dynv6.net/sub
+- https://sni.111000.dynv6.net/sub?clash
+- https://proxypool.dmit.dpdns.org/clash/proxies?nstream=netflix,disney&amp;nc=CA&amp;type=ss,vmess,vless
 - https://update.glados-config.com/mihomo/543454/7b9d17e/80064/glados.yaml
 - https://pai.yt/clash
-- https://sni.111000.dynv6.net/sub?clash
-- https://chromego-sub.netlify.app/sub/merged_proxies_new.yaml
-- https://raw.githubusercontent.com/go4sharing/sub/main/sub.yaml
+- https://proxypool.dmit.dpdns.org/clash/proxies
 v2订阅:
-- https://pai.yt/base64
-- https://sub.scpnb.top/base64
 - https://pai.yt/base64?preset=other
 - https://iuiu.lovebabyforever.workers.dev/
+- https://sub.scpnb.top/base64
+- https://pai.yt/base64
 开心玩耍:
-- 可用流量:59.99 GB                    https://47.112.97.173:5000/api/v1/client/subscribe?token=f2ced60653d32a7c89a1bb6bea36d615
-- 可用流量:6910.71 GB                    https://aoe.o.eoa.ccwu.cc/o
-- 可用流量:395.93 GB                    https://47.112.97.173:5000/api/v1/client/subscribe?token=32cb265158b5a8ce5c3c459abe8a3287
-- 可用流量:98609.4 GB                    https://download.8886698.xyz/api/v1/client/subscribe?token=211a780c0135fca07b8f2049ad174828
-- 可用流量:274.17 GB                    https://47.112.97.173:5000/api/v1/client/subscribe?token=31c915cb5e387de630f9c693ffc719ea
-- 可用流量:225.58 GB                    https://47.242.128.61:5000/api/v1/client/subscribe?token=c192b34326977efd1c742fe9feb4684e
-- 可用流量:54.24 GB                    https://47.112.97.173:5000/api/v1/client/subscribe?token=734daff169a6a0228e572f3d8f7f646b
-- 可用流量:89.06 GB                    https://47.112.97.173:5000/api/v1/client/subscribe?token=d31bf4c2297cac94f745fdbce0def5be
-- 可用流量:131.55 GB                    https://UqYEryVb.doggygosubs.com:8443/api/v1/client/1ad44caa0585937ac56db6c22546e266
-- 可用流量:89.2 GB                    https://47.112.97.173:5000/api/v1/client/subscribe?token=1ed28cba8fba978a354ee1b3a257e86a
+- 可用流量:26.21 GB                    https://47.112.97.173:5000/api/v1/client/subscribe?token=d31bf4c2297cac94f745fdbce0def5be
+- 可用流量:253.5 GB                    https://47.112.97.173:5000/api/v1/client/subscribe?token=31c915cb5e387de630f9c693ffc719ea
+- 可用流量:98262.92 GB                    https://download.8886698.xyz/api/v1/client/subscribe?token=211a780c0135fca07b8f2049ad174828
+- 可用流量:228.88 GB                    https://47.112.97.173:5000/api/v1/client/subscribe?token=32cb265158b5a8ce5c3c459abe8a3287
+- 可用流量:11.45 GB                    https://47.112.97.173:5000/api/v1/client/subscribe?token=1ed28cba8fba978a354ee1b3a257e86a
+- 可用流量:3290.11 GB                    https://aoe.o.eoa.ccwu.cc/o
+- 可用流量:78.88 GB                    https://UqYEryVb.doggygosubs.com:8443/api/v1/client/1ad44caa0585937ac56db6c22546e266
 机场订阅:
-- https://47.112.97.173:5000/api/v1/client/subscribe?token=d31bf4c2297cac94f745fdbce0def5be
-- https://47.112.97.173:5000/api/v1/client/subscribe?token=31c915cb5e387de630f9c693ffc719ea
-- https://47.112.97.173:5000/api/v1/client/subscribe?token=734daff169a6a0228e572f3d8f7f646b
 - https://aoe.o.eoa.ccwu.cc/o
-- https://47.112.97.173:5000/api/v1/client/subscribe?token=1ed28cba8fba978a354ee1b3a257e86a
-- https://47.112.97.173:5000/api/v1/client/subscribe?token=32cb265158b5a8ce5c3c459abe8a3287
-- https://download.8886698.xyz/api/v1/client/subscribe?token=211a780c0135fca07b8f2049ad174828
-- https://47.242.128.61:5000/api/v1/client/subscribe?token=c192b34326977efd1c742fe9feb4684e
 - https://47.112.97.173:5000/api/v1/client/subscribe?token=f2ced60653d32a7c89a1bb6bea36d615
 - https://UqYEryVb.doggygosubs.com:8443/api/v1/client/1ad44caa0585937ac56db6c22546e266
+- https://47.112.97.173:5000/api/v1/client/subscribe?token=d31bf4c2297cac94f745fdbce0def5be
+- https://47.242.128.61:5000/api/v1/client/subscribe?token=c192b34326977efd1c742fe9feb4684e
+- https://47.112.97.173:5000/api/v1/client/subscribe?token=32cb265158b5a8ce5c3c459abe8a3287
+- https://47.112.97.173:5000/api/v1/client/subscribe?token=1ed28cba8fba978a354ee1b3a257e86a
+- https://download.8886698.xyz/api/v1/client/subscribe?token=211a780c0135fca07b8f2049ad174828
+- https://47.112.97.173:5000/api/v1/client/subscribe?token=734daff169a6a0228e572f3d8f7f646b
+- https://47.112.97.173:5000/api/v1/client/subscribe?token=31c915cb5e387de630f9c693ffc719ea
